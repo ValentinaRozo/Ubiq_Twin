@@ -5,7 +5,7 @@
 
 ## Resumen del Proyecto
 
-Este proyecto investiga cómo la dirección de la mirada puede servir como un indicador de atención en distintos entornos. Este repositorio se enfoca en la **realidad virtual** (RV), donde se desarrolló un entorno virtual en Unity utilizando el paquete **[Ubiq](https://github.com/ubiq-application/ubiq)** para habilitar la conectividad multiusuario y la interacción en red entre los participantes. El estudio forma parte de una investigación más amplia que también incluye entornos presenciales y de telepresencia. 
+Este proyecto investiga cómo la dirección de la mirada puede servir como un indicador de atención en distintos entornos. Este repositorio se enfoca en la **realidad virtual** (RV), donde se desarrolló un entorno virtual en Unity utilizando el paquete **[Ubiq](https://github.com/UCL-VR/ubiq)** para habilitar la conectividad multiusuario y la interacción en red entre los participantes. El estudio forma parte de una investigación más amplia que también incluye entornos presenciales y de telepresencia. 
 
 ### Objetivo Principal
 

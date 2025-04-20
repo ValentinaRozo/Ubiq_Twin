@@ -1,33 +1,33 @@
 # Ubiq_Twin
 
-**Ubiq_Twin** es parte de un proyecto de tesis de maestría en Ingeniería de Sistemas y Computación titulado *"Exploración de la Dirección de la Mirada como Indicador de Atención en Ambientes con Realidad Extendida"*.
+**Ubiq_Twin** is part of a master’s thesis project in Systems and Computing Engineering titled *"Exploración de la Dirección de la Mirada como Indicador de Atención en Ambientes con Realidad Extendida"*.
 <img width="1470" alt="Captura de pantalla 2024-11-12 a la(s) 12 04 24 p m" src="https://github.com/user-attachments/assets/bc7f481b-d865-4f45-b6a1-ffc06d73063d" />
 
-## Resumen del Proyecto
+## Project Overview
 
-Este proyecto investiga cómo la dirección de la mirada puede servir como un indicador de atención en distintos entornos. Este repositorio se enfoca en la **realidad virtual** (RV), donde se desarrolló un entorno virtual en Unity utilizando el paquete **[Ubiq](https://github.com/UCL-VR/ubiq)** para habilitar la conectividad multiusuario y la interacción en red entre los participantes. El estudio forma parte de una investigación más amplia que también incluye entornos presenciales y de telepresencia. 
+This project investigates how gaze direction can serve as an indicator of attention in different environments. This repository focuses on virtual reality (VR), where a virtual environment was developed in Unity using the **[Ubiq](https://github.com/UCL-VR/ubiq)** package to enable multi-user connectivity and networked interaction between participants. The study is part of a broader investigation that also includes face-to-face and telepresence environments.
 
-### Objetivo Principal
+### Main Objective
 
-El objetivo del proyecto es analizar cómo la orientación de la cabeza y la dirección de la mirada pueden reflejar el nivel de atención de los participantes dentro de un entorno de realidad virtual, permitiendo así nuevas formas de evaluar la interacción en entornos virtuales.
+The main goal of the project is to analyze how head orientation and gaze direction can reflect participants' level of attention within a virtual reality environment, enabling new ways to assess interaction in virtual spaces.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-Este proyecto hace uso de varias tecnologías para crear una experiencia de realidad virtual inmersiva:
+This project makes use of several technologies to create an immersive virtual reality experience:
 
-- **Entorno Virtual Desarrollado en Unity**: El espacio de realidad virtual fue creado con Unity, usando el paquete **[Ubiq](https://github.com/UCL-VR/ubiq)**, que facilita la conectividad multiusuario y la interacción en red entre los participantes.
-- **Modelo 3D (Gemelo Digital)**: El modelo 3D utilizado en el proyecto es un gemelo digital recuperado del repositorio **[ColivriDigitalTwin](https://github.com/imagine-uniandes/ColivriDigitalTwin)**, que representa un espacio interactivo dentro del entorno virtual.
-- **Oculus Quest 2**: El proyecto está diseñado para ejecutarse en el dispositivo de realidad virtual **Oculus Quest 2**, ofreciendo una experiencia inmersiva y natural de interacción dentro del entorno virtual.
+- **Virtual Environment Developed in Unity**: The virtual reality space was created with Unity, using the **[Ubiq](https://github.com/UCL-VR/ubiq)**, package, which facilitates multi-user connectivity and network interaction among participants.
+- **3D Model (Digital Twin)**: e 3D model used in the project is a digital twin retrieved from the **[ColivriDigitalTwin](https://github.com/imagine-uniandes/ColivriDigitalTwin)**, repository, representing an interactive space within the virtual environment.
+- **Oculus Quest 2**: The project is designed to run on the Oculus Quest 2 virtual reality headset, providing an immersive and natural interaction experience within the virtual environment.
 
-## Realidad Virtual
+## Virtual Reality
 
-En la fase de realidad virtual, los participantes interactúan dentro de un entorno virtual utilizando el **Oculus Quest 2**. La dirección de la mirada se mide y se analiza, tomando en cuenta las restricciones del campo visual del dispositivo. Durante las pruebas, los participantes se enfocan principalmente en los elementos visibles en su entorno, lo que permite estudiar cómo los objetos en el campo visual impactan su atención en la interacción.
+In the virtual reality phase, participants interact within a virtual environment using the **Oculus Quest 2**. Gaze direction is measured and analyzed, taking into account the visual field limitations of the device. During testing, participants mainly focus on the visible elements in their environment, allowing researchers to study how objects within the field of view affect attention during interaction.
 
-### Principales Observaciones
-- **Condicionamiento por el campo visual**: La dirección de la mirada está influenciada por las limitaciones físicas del Oculus Quest 2, lo que provoca que los participantes se concentren en los objetos directamente visibles.
-- **Atención visual**: El análisis de la dirección de la mirada se utiliza como una métrica para evaluar la distribución de la atención de los participantes en el entorno virtual.
-
-## Requisitos
-- **Unity 2022.3.16f1**: Versión recomendada de Unity.
-- **Git LFS**: Git Large File Storage debe estar configurado para manejar archivos grandes como modelos 3D.
-- **Oculus Quest 2:** Configurado y vinculado correctamente a tu máquina para pruebas en realidad virtual.
+### Key Observations
+- **Influence of the visual field**: Gaze direction is influenced by the physical limitations of the Oculus Quest 2, leading participants to focus on directly visible objects.
+- **Visual attention**: Gaze direction analysis is used as a metric to evaluate the distribution of participants' attention in the virtual environment.
+  
+## Requirements
+- **Unity 2022.3.16f1**: Recommended version of Unity.
+- **Git LFS**: Git Large File Storage must be configured to handle large files such as 3D models.
+- **Oculus Quest 2:** Properly configured and linked to your machine for virtual reality testing.
